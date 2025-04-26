@@ -55,7 +55,7 @@ public class MyClass {
         System.out.print("  ");
 
         // Print the calendar days
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < 33; i++) {
             System.out.printf("%4s AM/PM", startDate.format(formatter));
             if (dayOfWeek % 7 == 0) {
                 System.out.println();
